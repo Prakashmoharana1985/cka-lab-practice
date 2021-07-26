@@ -22,17 +22,11 @@ During the exam, you are allowed to keep only one other browser tab open to refe
 
 
 
-I have provided an example folder of sample YAML files for various different exercises so that you can use these as templates.
-
-
-
-### Can I PR? There is an error/an alternative way/an extra question/solution I can offer
-
-Absolutely! Feel free to PR and edit/add questions and solutions, but please stick to the existing format.
 
 ### References
 
 - [here](https://github.com/dgkanatsios/CKAD-exercises) from dgkanatsios
+
 CKA preparation
 CNCF CKA official page:
 https://www.cncf.io/certification/cka/
@@ -47,16 +41,27 @@ Workloads & Scheduling 15%
 Services & Networking 20%
 Storage 10%
 Troubleshooting 30%
+
 Useful official documentation:
+
 https://kubernetes.io/docs/concepts/
+
 https://kubernetes.io/docs/tasks/
+
 https://kubernetes.io/docs/reference/
+
 Good articles about the subject:
+
 https://medium.com/@pmvk/tips-to-crack-certified-kubernetes-administrator-cka-exam-c949c7a9bea1
+
 https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552
+
 https://github.com/stretchcloud/cka-lab-practice
+
 https://github.com/dgkanatsios/CKAD-exercises (Useful for CKA too)
+
 How it goes
+
 The CKA is not a multiple choice question, that is, it is not possible to choose a random answer or to choose the least wrong answer. The CKA is a practical exam where you are given 24 problems to solve within 3 hours. You can go from one problem to the other and you can flag them to come back to them later if you're not sure of the answer.
 
 We give you several clusters on which to solve the problems, and you have to be careful to be on the right cluster otherwise we don't understand why you can't find the namespaces or pods they talk about in the question, and you lose a lot of time believing that it is part of the question when it was just that you were not in the right cluster.
@@ -65,9 +70,13 @@ During the exam, you will be assessed on the 10 topics mentionned above.
 
 So you will have to create pods, deployments, do rollouts, create a cluster with KubeADM, repair a crashing cluster, and lots of things a Kubernetes administrator does. To be comfortable with all these operations, here is what I recommend.
 
-First, it is very useful to redo the now famous "Kubernetes the hard way" by Kelsey Hightower: https://github.com/kelseyhightower/kubernetes-the-hard-way/tree/master/docs
+First, it is very useful to redo the now famous "Kubernetes the hard way" by Kelsey Hightower: 
 
-You can also find a similar guide from Linux Academy which explains all the steps: https://linuxacademy.com/course/kubernetes-the-hard-way/
+https://github.com/kelseyhightower/kubernetes-the-hard-way/tree/master/docs
+
+You can also find a similar guide from Linux Academy which explains all the steps: 
+
+https://linuxacademy.com/course/kubernetes-the-hard-way/
 
 It is not necessary to know how to do it by heart for the CKA, contrary to what we can read online. But it's good training to understand how the Kubernetes system and architecture works in detail.
 
